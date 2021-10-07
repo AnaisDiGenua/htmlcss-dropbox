@@ -12,6 +12,9 @@ body {
 .right {
     float: right;
 }
+a {
+    text-decoration: none;
+}
 
 
 /* debug */
@@ -21,17 +24,48 @@ body {
 .debug .right, .debug .left {
     background-color: lightyellow;
 }
+.debug #jumbotron {
+    height: 600px;
+    background-color: lightsteelblue;
+    padding-top: 65px;
+}
 
+
+
+/* btn */
+.btn {
+    font-weight: 500;
+    padding: 5px 15px;
+}
+.blue {
+    background-color: #0061ff;
+    color: white;
+}
 
 
 /* header */
 header {
-    height: 80px;
+    height: 65px;
+    line-height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav .left  img {
+    width: 100px;
+    vertical-align: middle;
 }
 nav ul li {
     display: inline-block;
     list-style: none;
+    margin: 0 15px;
 }
+nav ul a {
+    font-size: 14px;
+    color: black;
+}
+
 
 
 /* jumbotron */
