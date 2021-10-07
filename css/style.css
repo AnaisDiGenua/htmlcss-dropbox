@@ -36,6 +36,22 @@ a {
 a:hover {
     text-decoration: underline;
 }
+h2 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 12px;
+    padding: 15px 0;
+}
+p {
+    font-size: 14px;
+}
+.p-20 {
+    padding: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
 
 
 /* debug */
@@ -44,24 +60,29 @@ a:hover {
 }
 .debug #plan-section {
     height: 900px;
-    background-color: lightpink;
+    /* background-color: lightpink; */
 }
 .debug .main-container {
     height: 900px;
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
 }
 .debug .main-container > div {
-    background-color: lightyellow;
+    /* background-color: lightyellow; */
     border: 1px solid black;
 }
-.debug .plan-top {
+/* .debug .plan-top {
     height: 200px;
-}
+} */
 .debug .plan-middle {
-    height: 400px;
+    height: 600px;
 }
-.debug .plan-bottom {
+/* .debug .plan-bottom {
     height: 200px;
+} */
+.debug .col{
+    min-height: 600px;
+    /* background-color: mediumpurple; */
+    border: 1px solid black;
 }
 
 
@@ -70,6 +91,7 @@ a:hover {
 
 /* btn */
 .btn {
+    font-size: 12px;
     font-weight: 500;
     padding: 5px 15px;
 }
@@ -129,10 +151,9 @@ nav ul a {
     font-size: 55px;
 }
 .jumbo-text p {
-    font-size: 15px;
     padding-bottom: 30px;
 }
-.jumbo-button {
+.jumbo-btn {
     padding-bottom: 15px;
 }
 .arrow-down i {
@@ -142,5 +163,27 @@ nav ul a {
 
 
 /* main plan section*/
+.plan-top span {
+    font-size: 14px;
+}
+.plan-middle .col{
+    width: calc(100% / 3 - 20px);
+}
+.plan-middle .col.md {
+    margin: 0 30px;
+}
+.plan-bottom .main-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.plan-bottom .up {
+    text-align: center;
+    border: 1px solid gray;
+}
+.plan-bottom .down {
+    position: relative;
+    border: 1px solid gray;
+}
 
 
