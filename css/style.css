@@ -6,3 +6,32 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+
+/* debug */
+.debug header {
+    background-color: lightpink;
+}
+.debug .right, .debug .left {
+    background-color: lightyellow;
+}
+
+
+
+/* header */
+header {
+    height: 80px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+
+/* jumbotron */
