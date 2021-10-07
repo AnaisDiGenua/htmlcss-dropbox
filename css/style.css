@@ -12,6 +12,12 @@ body {
 .jumbo-container {
     width: 80%;
     margin: 0 auto;
+    padding-top: 70px;
+}
+.main-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
 }
 .left {
     float: left;
@@ -33,16 +39,31 @@ a:hover {
 
 
 /* debug */
-.debug #jumbotron {
-    height: 700px;
-    padding-top: 65px;
-}
-.jumbo-text, .jumbo-img {
+.debug .jumbo-text, .jumbo-img, .jumbo-title  {
     border: 1px solid black;
 }
-.jumbo-title {
+.debug #plan-section {
+    height: 900px;
+    background-color: lightpink;
+}
+.debug .main-container {
+    height: 900px;
+    background-color: lightseagreen;
+}
+.debug .main-container > div {
+    background-color: lightyellow;
     border: 1px solid black;
 }
+.debug .plan-top {
+    height: 200px;
+}
+.debug .plan-middle {
+    height: 400px;
+}
+.debug .plan-bottom {
+    height: 200px;
+}
+
 
 
 
@@ -89,10 +110,8 @@ nav ul a {
 
 /* jumbotron */
 #jumbotron {
+    height: 700px;
     padding-top: 65px;
-}
-.jumbo-container {
-    padding-top: 70px;
 }
 .jumbo-text {
     width: 38%;
@@ -119,3 +138,9 @@ nav ul a {
 .arrow-down i {
     font-size: 30px;
 }
+
+
+
+/* main plan section*/
+
+
