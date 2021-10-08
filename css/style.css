@@ -5,6 +5,7 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
 }
 .background {
     background: linear-gradient(to bottom, #b4d0e7 90%, white 10%)
@@ -18,6 +19,9 @@ body {
     width: 70%;
     margin: 0 auto;
     padding: 60px 0;
+}
+.title-container {
+    width: 53%;
 }
 .left {
     float: left;
@@ -65,9 +69,11 @@ p {
 
 
 
+
 /* debug */
-.debug main {
-    height: 1400px;
+.debug .square-box {
+    height: 300px;
+    background-color: pink;
 }
 
 
@@ -180,13 +186,14 @@ nav ul a {
     margin: 0 60px;
 }
 .col{
-    width: calc(100% / 3 - 60px);
+    width: calc(100% / 3 - 40px);
 }
 .plan-middle .benefits .price {
     font-weight: bold;
     margin-bottom: 5px;
+    font-weight: 500;
 }
-.benefits .buy-now a {
+.buy-now a {
     text-decoration: underline;
     color: #0061ff;
 }
@@ -267,6 +274,11 @@ nav ul a {
 .operation-bottom .row:first-child {
     margin-bottom: 80px;
 }
+
+
+
+/* MAIN CLIENT SECTION */
+
 
 
 
