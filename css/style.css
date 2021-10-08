@@ -42,7 +42,7 @@ h2 {
     font-size: 35px;
 }
 h3 {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 h4 {
@@ -105,6 +105,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 9999;
 }
 nav .left  img {
     width: 100px;
@@ -176,10 +177,10 @@ nav ul a {
     border: 1px solid lightgray;
 }
 .col.md {
-    margin: 0 20px;
+    margin: 0 60px;
 }
 .col{
-    width: calc(100% / 3 - 14px);
+    width: calc(100% / 3 - 60px);
 }
 .plan-middle .benefits .price {
     font-weight: bold;
@@ -252,6 +253,19 @@ nav ul a {
 }
 .partner-img img {
     width: 100%;
+}
+
+
+
+/* MAIN OPERATION SECTION */
+.operation-img img {
+    width: 100%;
+}
+.operation-text span {
+    text-decoration: underline;
+}
+.operation-bottom .row:first-child {
+    margin-bottom: 80px;
 }
 
 
