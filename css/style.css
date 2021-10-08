@@ -17,7 +17,7 @@ body {
 .main-container {
     width: 70%;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 .left {
     float: left;
@@ -39,9 +39,10 @@ ul li {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 35px;
 }
 h3 {
+    font-size: 25px;
     margin-bottom: 20px;
 }
 h4 {
@@ -65,10 +66,9 @@ p {
 
 
 /* debug */
-.debug .main-container {
-    height: 1200px;
+.debug main {
+    height: 1400px;
 }
-
 
 
 
@@ -81,6 +81,11 @@ p {
 .blue {
     background-color: #0061ff;
     color: white;
+}
+.white {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 #jumbotron .jumbo-btn {
     margin-bottom: 15px;
@@ -166,14 +171,14 @@ nav ul a {
     margin-right: 10px;
 }
 /* .plan-middle */
-.col {
+.plan-middle .col {
     min-height: 900px;
     border: 1px solid lightgray;
 }
 .col.md {
     margin: 0 20px;
 }
-.plan-middle .col{
+.col{
     width: calc(100% / 3 - 14px);
 }
 .plan-middle .benefits .price {
@@ -232,6 +237,22 @@ nav ul a {
     right: 20px;
 }
 
+
+
+/* MAIN PARTNER SECTION */
+.partner-img, .partner-text {
+    width: calc(100% / 2 - 30px);
+}
+.partner-text {
+    margin-right: 30px;
+    padding-top: 20px;
+}
+.partner-text p {
+    line-height: 1.80;
+}
+.partner-img img {
+    width: 100%;
+}
 
 
 
