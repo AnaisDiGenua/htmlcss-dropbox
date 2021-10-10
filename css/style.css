@@ -5,7 +5,6 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
 }
 .background {
     background: linear-gradient(to bottom, #b4d0e7 90%, white 10%)
@@ -71,10 +70,9 @@ p {
 
 
 /* debug */
-.debug .square-box {
-    height: 300px;
-    background-color: pink;
-}
+
+
+
 
 
 
@@ -115,14 +113,14 @@ header {
 }
 nav .left  img {
     width: 100px;
-    vertical-align: middle;
+    vertical-align: text-bottom;
 }
 nav ul li {
     display: inline-block;
     margin: 0 15px;
 }
 nav ul a {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     color: black;
 }
@@ -278,8 +276,76 @@ nav ul a {
 
 
 /* MAIN CLIENT SECTION */
-
-
+.square-box {
+    background-color: #f5f5f5;
+}
+.box {
+    height: 400px;
+}
+.box.sx {
+    width: 28%;
+}
+.box.md {
+    width: 44%;
+}
+.box.dx {
+    width: 28%;
+}
+.square {
+    width: calc(100% / 2);
+    height: 200px;
+    position: relative;
+}
+.square img {
+    display: block;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.small-container {
+    padding: 40px;
+}
+.line-gray {
+    width: 10%;
+    border-bottom: 1px solid gray;
+    margin-top: 20px;
+}
+.img-section-client img {
+    width: 100px;
+}
+.client-text {
+    margin-top: 40px;
+}
+.author-citation {
+    margin-top: 50px;
+}
+.green {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+.bordeaux {
+    background-color: #61082b;
+}
+.teal {
+    background-color: #0093ce;
+}
+.tomato {
+    background-color: #ff1c1c;
+}
+.red {
+    background-color: #d5001f;
+}
+.light-blue {
+    background-color: #b4d0e7;
+}
+.dark-blue {
+    background-color: #0d2481;
+}
+.yellow {
+    background-color: #ffd830;
+}
 
 
 
