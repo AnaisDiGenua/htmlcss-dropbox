@@ -143,13 +143,13 @@ nav ul a {
     font-weight: 500;
     color: black;
 }
-nav ul a:hover {
+nav ul li:hover {
     border-bottom: 2px solid black;
 }
 .accedi-btn a{
     display: inline;
 }
-.accedi-btn a:hover, .logo a:hover, .dropdown-content a:hover {
+.accedi-btn:hover, .logo:hover, .dropdown-content li:hover {
     border-bottom: none;
 }
 .dropdown {
@@ -158,6 +158,7 @@ nav ul a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
+    top: calc(100% + 2px);
     min-width: 200px;
     background-color: #f9f9f9;
     line-height: normal;
