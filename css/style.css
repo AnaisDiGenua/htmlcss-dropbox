@@ -466,6 +466,9 @@ footer {
     font-size: 14px;
     color: white;
 }
+.footer-top ul li a:hover {
+    text-decoration: underline;
+}
 .footer-top ul li h4 {
     color: white;
 }
