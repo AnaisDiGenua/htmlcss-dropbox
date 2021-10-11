@@ -84,7 +84,7 @@ p {
 .btn {
     font-size: 12px;
     font-weight: 500;
-    padding: 5px 15px;
+    
 }
 .blue {
     background-color: #0061ff;
@@ -94,6 +94,9 @@ p {
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+.accedi-btn a, .jumbo-btn a, .plan-middle .plan-btn a{
+    padding: 5px 15px;
 }
 #jumbotron .jumbo-btn {
     margin-bottom: 15px;
@@ -113,7 +116,6 @@ p {
 }
 #free-trial-section .free-trial-btn a {
     border: none;
-    font-size: 14px;
     padding: 5px 40px;
 }
 
@@ -122,7 +124,7 @@ p {
 /* header */
 header {
     height: 60px;
-    line-height: 60px;
+    line-height: 57px;
     background-color: white;
     position: fixed;
     top: 0;
@@ -139,10 +141,21 @@ nav ul li {
     margin: 0 15px;
 }
 nav ul a {
+    display: block;
     font-size: 13px;
     font-weight: 500;
     color: black;
 }
+nav ul a:hover {
+    border-bottom: 2px solid black;
+}
+.accedi-btn a{
+    display: inline;
+}
+.accedi-btn a:hover, .logo a:hover {
+    border-bottom: none;
+}
+
 
 
 
