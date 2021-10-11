@@ -1,3 +1,4 @@
+/* commons  */
 * {
     margin: 0;
     padding: 0;
@@ -69,15 +70,6 @@ p {
 
 
 
-
-
-
-/* debug */
-
-
-
-
-
 /* btn */
 .btn {
     font-size: 12px;
@@ -123,7 +115,6 @@ p {
 #free-trial-section .free-trial-btn {
     text-align: right;
 }
-
 
 
 
@@ -441,6 +432,24 @@ nav ul a:hover {
 }
 .question {
     font-weight: bold;
+    font-size: 14px;
+}
+.hover-answer, i.fa-chevron-up {
+    display: none;
+}
+.faq-list li:hover  .hover-answer{
+    display: block;
+    margin-top: 30px;
+}
+.faq-list li:hover i.fa-chevron-up {
+    display: block;
+}
+.faq-list li:hover i.fa-chevron-down {
+    display: none;
+}
+.hover-answer {
+    width: 90%;
+    color: gray;
     font-size: 14px;
 }
 
