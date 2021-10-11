@@ -336,30 +336,28 @@ nav ul a:hover {
 .square-box {
     background-color: #f5f5f5;
 }
-.box {
-    height: 400px;
-}
 .box.sx {
-    width: 28%;
+    width: 30%;
 }
 .box.md {
-    width: 44%;
+    width: 40%;
 }
 .box.dx {
-    width: 28%;
+    width: 30%;
 }
 .square {
     width: calc(100% / 2);
-    height: 200px;
+    height: 15vw;
     position: relative;
 }
 .square img {
     display: block;
-    width: 100px;
+    width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
+    filter: invert(1);
 }
 .small-container {
     padding: 40px;
@@ -407,6 +405,9 @@ nav ul a:hover {
 
 
 /* MAIN FREE TRIAL SECTION */
+#free-trial-section .main-container{
+    padding: 80px 0;
+}
 #free-trial-section {
     background-color: #b4d0e7;
 }
