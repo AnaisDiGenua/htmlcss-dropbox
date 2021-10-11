@@ -84,7 +84,6 @@ p {
 .btn {
     font-size: 12px;
     font-weight: 500;
-    
 }
 .blue {
     background-color: #0061ff;
@@ -95,29 +94,38 @@ p {
     color: black;
     border: 1px solid black;
 }
-.accedi-btn a, .jumbo-btn a, .plan-middle .plan-btn a{
+.btn.blue:hover {
+    background-color: #4087f8;
+}
+.btn.white:hover {
+    background-color: #f5f5f5;
+}
+.accedi-btn a, .jumbo-btn a, .plan-middle .plan-btn a, .partner-btn a{
     padding: 5px 15px;
 }
-#jumbotron .jumbo-btn {
-    margin-bottom: 15px;
-}
-#plan-section .plan-btn {
-    text-align: center;
+#plan-section .plan-middle .plan-btn a {
+    padding: 6px 30px;
 }
 #plan-section .plan-bottom .plan-btn a {
-    padding: 5px 50px;
+    padding: 6px 50px;
 }
 #partner-section .partner-btn a{
-    padding: 10px 20px;
     font-size: 14px;
-}
-#free-trial-section .free-trial-btn {
-    text-align: right;
 }
 #free-trial-section .free-trial-btn a {
     border: none;
     padding: 5px 40px;
 }
+#jumbotron .jumbo-btn {
+    margin-bottom: 15px;
+}
+#plan-section .plan-middle .plan-btn {
+    text-align: center;
+}
+#free-trial-section .free-trial-btn {
+    text-align: right;
+}
+
 
 
 
