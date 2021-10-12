@@ -346,12 +346,12 @@ nav ul li:hover {
     width: calc(100% - 60vw);
 }
 .square {
-    width: calc(100% / 2);
+    width: calc(100% / 2); /* o scrivere 15vw direttamente*/
     height: 15vw;
     position: relative;
 }
 .square img {
-    display: block;
+    /* display: block; */
     width: 50%;
     position: absolute;
     top: 50%;
